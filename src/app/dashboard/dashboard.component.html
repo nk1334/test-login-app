@@ -1,0 +1,30 @@
+<p>dashboard works!</p>
+<title>Dashboard</title>
+
+  <h1>Welcome to the Dashboard!</h1>
+  <p>You have successfully logged in.</p>
+
+  <div class="form-group">
+  <label>Name:</label>
+  <input type="text" required />
+</div>
+
+
+<div class="form-group">
+  <label for="branch">Branch</label>
+  <select id="branch">
+    <option value="">Select your option</option>
+    <option value="NSW">Main Branch NSW</option>
+    <option value="0">Branch 0 - YATALA</option>
+    <option value="3">Branch 3 - MACKAY</option>
+  </select>
+</div>
+
+<div class="form-group">
+  <label>JobNo:</label>
+  <input type="text" />
+</div>
+
+<div class="form-group">
+   <button (click)="onSubmit()">Submit</button>
+</div>

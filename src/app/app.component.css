@@ -1,0 +1,13 @@
+.login-container, .signup-container {
+    max-width: 300px;
+    margin: 40px auto;
+    font-family: Arial, sans-serif;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.signup-container h3 {
+    color: purple;
+}
